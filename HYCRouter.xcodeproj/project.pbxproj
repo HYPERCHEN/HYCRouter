@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07B760172040F21900D89B3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B760162040F21900D89B3C /* AppDelegate.m */; };
+		07B7601A2040F21900D89B3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B760192040F21900D89B3C /* ViewController.m */; };
+		07B7601D2040F21900D89B3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B7601B2040F21900D89B3C /* Main.storyboard */; };
+		07B7601F2040F21900D89B3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07B7601E2040F21900D89B3C /* Assets.xcassets */; };
+		07B760222040F21900D89B3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B760202040F21900D89B3C /* LaunchScreen.storyboard */; };
+		07B760252040F21900D89B3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B760242040F21900D89B3C /* main.m */; };
+		07B7602F2040F21900D89B3C /* HYCRouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B7602E2040F21900D89B3C /* HYCRouterTests.m */; };
+		07B7603A2040F21900D89B3C /* HYCRouterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B760392040F21900D89B3C /* HYCRouterUITests.m */; };
+		07B7604A2040F24500D89B3C /* TestModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B760492040F24500D89B3C /* TestModule.m */; };
+		07B7604D2040F96800D89B3C /* HYCMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B7604C2040F96800D89B3C /* HYCMediator.m */; };
+		07B7606620413C1D00D89B3C /* HYCBoxing.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B7606520413C1D00D89B3C /* HYCBoxing.m */; };
+		07B760882043EC8F00D89B3C /* TestObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B760872043EC8F00D89B3C /* TestObj.m */; };
+		07B7608B2043ECDF00D89B3C /* HYCMediator+testObjFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B7608A2043ECDF00D89B3C /* HYCMediator+testObjFunc.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07B7602B2040F21900D89B3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07B7600A2040F21900D89B3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07B760112040F21900D89B3C;
+			remoteInfo = HYCRouter;
+		};
+		07B760362040F21900D89B3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07B7600A2040F21900D89B3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07B760112040F21900D89B3C;
+			remoteInfo = HYCRouter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07B760122040F21900D89B3C /* HYCRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYCRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07B760152040F21900D89B3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07B760162040F21900D89B3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07B760182040F21900D89B3C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07B760192040F21900D89B3C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07B7601C2040F21900D89B3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07B7601E2040F21900D89B3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07B760212040F21900D89B3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07B760232040F21900D89B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07B760242040F21900D89B3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07B7602A2040F21900D89B3C /* HYCRouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYCRouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07B7602E2040F21900D89B3C /* HYCRouterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCRouterTests.m; sourceTree = "<group>"; };
+		07B760302040F21900D89B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07B760352040F21900D89B3C /* HYCRouterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYCRouterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07B760392040F21900D89B3C /* HYCRouterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCRouterUITests.m; sourceTree = "<group>"; };
+		07B7603B2040F21900D89B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07B760482040F24500D89B3C /* TestModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModule.h; sourceTree = "<group>"; };
+		07B760492040F24500D89B3C /* TestModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestModule.m; sourceTree = "<group>"; };
+		07B7604B2040F96800D89B3C /* HYCMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYCMediator.h; sourceTree = "<group>"; };
+		07B7604C2040F96800D89B3C /* HYCMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCMediator.m; sourceTree = "<group>"; };
+		07B7606420413C1D00D89B3C /* HYCBoxing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYCBoxing.h; sourceTree = "<group>"; };
+		07B7606520413C1D00D89B3C /* HYCBoxing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCBoxing.m; sourceTree = "<group>"; };
+		07B760862043EC8F00D89B3C /* TestObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObj.h; sourceTree = "<group>"; };
+		07B760872043EC8F00D89B3C /* TestObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObj.m; sourceTree = "<group>"; };
+		07B760892043ECDF00D89B3C /* HYCMediator+testObjFunc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HYCMediator+testObjFunc.h"; sourceTree = "<group>"; };
+		07B7608A2043ECDF00D89B3C /* HYCMediator+testObjFunc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HYCMediator+testObjFunc.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07B7600F2040F21900D89B3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07B760272040F21900D89B3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07B760322040F21900D89B3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07B760092040F21900D89B3C = {
+			isa = PBXGroup;
+			children = (
+				07B760142040F21900D89B3C /* HYCRouter */,
+				07B7602D2040F21900D89B3C /* HYCRouterTests */,
+				07B760382040F21900D89B3C /* HYCRouterUITests */,
+				07B760132040F21900D89B3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07B760132040F21900D89B3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07B760122040F21900D89B3C /* HYCRouter.app */,
+				07B7602A2040F21900D89B3C /* HYCRouterTests.xctest */,
+				07B760352040F21900D89B3C /* HYCRouterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07B760142040F21900D89B3C /* HYCRouter */ = {
+			isa = PBXGroup;
+			children = (
+				07B7608D2043ECF000D89B3C /* Category */,
+				07B7608C2043ECE600D89B3C /* Module */,
+				07B760472040F22300D89B3C /* Router */,
+				07B760152040F21900D89B3C /* AppDelegate.h */,
+				07B760162040F21900D89B3C /* AppDelegate.m */,
+				07B760182040F21900D89B3C /* ViewController.h */,
+				07B760192040F21900D89B3C /* ViewController.m */,
+				07B760482040F24500D89B3C /* TestModule.h */,
+				07B760492040F24500D89B3C /* TestModule.m */,
+				07B7601B2040F21900D89B3C /* Main.storyboard */,
+				07B7601E2040F21900D89B3C /* Assets.xcassets */,
+				07B760202040F21900D89B3C /* LaunchScreen.storyboard */,
+				07B760232040F21900D89B3C /* Info.plist */,
+				07B760242040F21900D89B3C /* main.m */,
+			);
+			path = HYCRouter;
+			sourceTree = "<group>";
+		};
+		07B7602D2040F21900D89B3C /* HYCRouterTests */ = {
+			isa = PBXGroup;
+			children = (
+				07B7602E2040F21900D89B3C /* HYCRouterTests.m */,
+				07B760302040F21900D89B3C /* Info.plist */,
+			);
+			path = HYCRouterTests;
+			sourceTree = "<group>";
+		};
+		07B760382040F21900D89B3C /* HYCRouterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07B760392040F21900D89B3C /* HYCRouterUITests.m */,
+				07B7603B2040F21900D89B3C /* Info.plist */,
+			);
+			path = HYCRouterUITests;
+			sourceTree = "<group>";
+		};
+		07B760472040F22300D89B3C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				07B7604B2040F96800D89B3C /* HYCMediator.h */,
+				07B7604C2040F96800D89B3C /* HYCMediator.m */,
+				07B7606420413C1D00D89B3C /* HYCBoxing.h */,
+				07B7606520413C1D00D89B3C /* HYCBoxing.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		07B7608C2043ECE600D89B3C /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				07B760862043EC8F00D89B3C /* TestObj.h */,
+				07B760872043EC8F00D89B3C /* TestObj.m */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		07B7608D2043ECF000D89B3C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				07B760892043ECDF00D89B3C /* HYCMediator+testObjFunc.h */,
+				07B7608A2043ECDF00D89B3C /* HYCMediator+testObjFunc.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07B760112040F21900D89B3C /* HYCRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07B7603E2040F21900D89B3C /* Build configuration list for PBXNativeTarget "HYCRouter" */;
+			buildPhases = (
+				07B7600E2040F21900D89B3C /* Sources */,
+				07B7600F2040F21900D89B3C /* Frameworks */,
+				07B760102040F21900D89B3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYCRouter;
+			productName = HYCRouter;
+			productReference = 07B760122040F21900D89B3C /* HYCRouter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07B760292040F21900D89B3C /* HYCRouterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07B760412040F21900D89B3C /* Build configuration list for PBXNativeTarget "HYCRouterTests" */;
+			buildPhases = (
+				07B760262040F21900D89B3C /* Sources */,
+				07B760272040F21900D89B3C /* Frameworks */,
+				07B760282040F21900D89B3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07B7602C2040F21900D89B3C /* PBXTargetDependency */,
+			);
+			name = HYCRouterTests;
+			productName = HYCRouterTests;
+			productReference = 07B7602A2040F21900D89B3C /* HYCRouterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07B760342040F21900D89B3C /* HYCRouterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07B760442040F21900D89B3C /* Build configuration list for PBXNativeTarget "HYCRouterUITests" */;
+			buildPhases = (
+				07B760312040F21900D89B3C /* Sources */,
+				07B760322040F21900D89B3C /* Frameworks */,
+				07B760332040F21900D89B3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07B760372040F21900D89B3C /* PBXTargetDependency */,
+			);
+			name = HYCRouterUITests;
+			productName = HYCRouterUITests;
+			productReference = 07B760352040F21900D89B3C /* HYCRouterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07B7600A2040F21900D89B3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = eric;
+				TargetAttributes = {
+					07B760112040F21900D89B3C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					07B760292040F21900D89B3C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 07B760112040F21900D89B3C;
+					};
+					07B760342040F21900D89B3C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 07B760112040F21900D89B3C;
+					};
+				};
+			};
+			buildConfigurationList = 07B7600D2040F21900D89B3C /* Build configuration list for PBXProject "HYCRouter" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07B760092040F21900D89B3C;
+			productRefGroup = 07B760132040F21900D89B3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07B760112040F21900D89B3C /* HYCRouter */,
+				07B760292040F21900D89B3C /* HYCRouterTests */,
+				07B760342040F21900D89B3C /* HYCRouterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07B760102040F21900D89B3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B760222040F21900D89B3C /* LaunchScreen.storyboard in Resources */,
+				07B7601F2040F21900D89B3C /* Assets.xcassets in Resources */,
+				07B7601D2040F21900D89B3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07B760282040F21900D89B3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07B760332040F21900D89B3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07B7600E2040F21900D89B3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B7601A2040F21900D89B3C /* ViewController.m in Sources */,
+				07B7604D2040F96800D89B3C /* HYCMediator.m in Sources */,
+				07B7604A2040F24500D89B3C /* TestModule.m in Sources */,
+				07B760252040F21900D89B3C /* main.m in Sources */,
+				07B760172040F21900D89B3C /* AppDelegate.m in Sources */,
+				07B7606620413C1D00D89B3C /* HYCBoxing.m in Sources */,
+				07B760882043EC8F00D89B3C /* TestObj.m in Sources */,
+				07B7608B2043ECDF00D89B3C /* HYCMediator+testObjFunc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07B760262040F21900D89B3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B7602F2040F21900D89B3C /* HYCRouterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07B760312040F21900D89B3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B7603A2040F21900D89B3C /* HYCRouterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07B7602C2040F21900D89B3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07B760112040F21900D89B3C /* HYCRouter */;
+			targetProxy = 07B7602B2040F21900D89B3C /* PBXContainerItemProxy */;
+		};
+		07B760372040F21900D89B3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07B760112040F21900D89B3C /* HYCRouter */;
+			targetProxy = 07B760362040F21900D89B3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07B7601B2040F21900D89B3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07B7601C2040F21900D89B3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07B760202040F21900D89B3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07B760212040F21900D89B3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07B7603C2040F21900D89B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07B7603D2040F21900D89B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07B7603F2040F21900D89B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XAZ7977TF4;
+				INFOPLIST_FILE = HYCRouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eric.HYCRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07B760402040F21900D89B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XAZ7977TF4;
+				INFOPLIST_FILE = HYCRouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eric.HYCRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07B760422040F21900D89B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XAZ7977TF4;
+				INFOPLIST_FILE = HYCRouterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eric.HYCRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYCRouter.app/HYCRouter";
+			};
+			name = Debug;
+		};
+		07B760432040F21900D89B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XAZ7977TF4;
+				INFOPLIST_FILE = HYCRouterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eric.HYCRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYCRouter.app/HYCRouter";
+			};
+			name = Release;
+		};
+		07B760452040F21900D89B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XAZ7977TF4;
+				INFOPLIST_FILE = HYCRouterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eric.HYCRouterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYCRouter;
+			};
+			name = Debug;
+		};
+		07B760462040F21900D89B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XAZ7977TF4;
+				INFOPLIST_FILE = HYCRouterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eric.HYCRouterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYCRouter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07B7600D2040F21900D89B3C /* Build configuration list for PBXProject "HYCRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B7603C2040F21900D89B3C /* Debug */,
+				07B7603D2040F21900D89B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07B7603E2040F21900D89B3C /* Build configuration list for PBXNativeTarget "HYCRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B7603F2040F21900D89B3C /* Debug */,
+				07B760402040F21900D89B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07B760412040F21900D89B3C /* Build configuration list for PBXNativeTarget "HYCRouterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B760422040F21900D89B3C /* Debug */,
+				07B760432040F21900D89B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07B760442040F21900D89B3C /* Build configuration list for PBXNativeTarget "HYCRouterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B760452040F21900D89B3C /* Debug */,
+				07B760462040F21900D89B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07B7600A2040F21900D89B3C /* Project object */;
+}

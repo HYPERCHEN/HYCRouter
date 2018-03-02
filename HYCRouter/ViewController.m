@@ -21,6 +21,9 @@
     
     NSLog(@"%@",[HYCMediator HYCMediator_getClassFromString:@"ViewController"]);
     
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
